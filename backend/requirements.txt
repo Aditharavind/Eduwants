@@ -1,0 +1,49 @@
+# EduWants Backend - Requirements (SQLite Compatible)
+# Updated to use SQLite instead of PostgreSQL
+
+# Django Framework
+Django>=4.2,<5.0
+
+# Django REST Framework
+djangorestframework>=3.14,<4.0
+
+# JWT Authentication
+djangorestframework-simplejwt>=5.3,<6.0
+
+# CORS Headers
+django-cors-headers>=4.3,<5.0
+
+# OpenAI Integration
+openai>=1.0,<2.0
+
+# Environment Variables
+python-dotenv>=1.0,<2.0
+
+# Image Processing (for OCR functionality)
+Pillow>=10.0,<11.0
+
+# Django Extensions (for additional management commands)
+django-extensions>=3.2,<4.0
+
+# Development and Testing
+pytest>=7.4,<8.0
+pytest-django>=4.5,<5.0
+
+# Optional: Production server
+gunicorn>=21.0,<22.0
+whitenoise>=6.6,<7.0
+
+# PDF & ML (DataBank)
+PyMuPDF>=1.22.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+safetensors>=0.3.0
+tokenizers>=0.13.0
+pyyaml>=6.0
+regex>=2023.3.23
+typer>=0.9.0
+dj-database-url>=2.1.0
+
